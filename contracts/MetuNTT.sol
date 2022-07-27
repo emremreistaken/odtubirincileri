@@ -5,23 +5,6 @@ import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
-/*
-                        ODTU BLOCKCHAIN
-             ______________________________________
-            //              //                    \\  
-           //     _________//       __________     \\
-          //    //        //     //\\        \\     \\         
-         //    //        //     //  \\        \\     \\
-        //    //        //     //    \\        \\     \\
-        \\    \\        \\    //     //        //     //
-         \\    \\        \\  //     //        //     //
-          \\    \\________\\//     //________//     //      
-           \\                     //               //
-            \\___________________//_______________//
-
-                    twitter.com/odtublockchain
-*/
-
 contract Odtu2022Soulbound is ERC721, Ownable {
 
     error Soulbound();
